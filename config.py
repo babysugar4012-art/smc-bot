@@ -45,5 +45,10 @@ MOVE_SL_TO_BE_AFTER_TP_INDEX = 0  # after TP1 (index 0) hits, move SL to breakev
 # --- Session filter (UTC hours) — forex/metal only trade inside these windows ---
 FOREX_SESSION_HOURS_UTC = list(range(7, 21))  # London + New York overlap window
 
+# --- API budget guard ---
+# Stays below the free 800/day limit even if the schedule fires more often
+# than expected, or an external trigger (e.g. cron-job.org) duplicates runs.
+DAILY_API_BUDGET = 700
+
 # --- State file (committed back to the repo by the GitHub Action) ---
 STATE_FILE = "state.json"
