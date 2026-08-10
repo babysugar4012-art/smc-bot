@@ -34,9 +34,15 @@ def fetch_candles(symbol, interval, api_key, output_size=120, retries=3):
             continue
 
         if data.get("status") == "error":
-            print(f"[twelve_data] API error for {symbol} {interval}: {data.get('message')}")
-            # Rate limit -> back off and retry
-            if "limit" in str(data.get("message", "")).lower():
+            message = str(data.get("message", ""))
+            print(f"[twelve_data] API error for {symbol} {interval}: {message}")
+            # Daily credit quota exhausted — retrying burns more failed
+            # attempts for nothing. Stop immediately and let the caller
+            # skip the rest of this run.
+            if "run out of api credits for the day" in message.lower():
+                return "QUOTA_EXHAUSTED"
+            # Per-minute rate limit (transient) — worth a short backoff + retry.
+            if "limit" in message.lower():
                 time.sleep(10)
                 continue
             return None
