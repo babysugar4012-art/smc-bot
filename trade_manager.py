@@ -19,7 +19,10 @@ from config import STATE_FILE, PARTIAL_TP_PCT, MOVE_SL_TO_BE_AFTER_TP_INDEX
 
 def load_state():
     if not os.path.exists(STATE_FILE):
-        return {"open_trades": [], "last_trend": {}, "last_mtf_trend": {}, "last_health_ping": None}
+        return {
+            "open_trades": [], "last_trend": {}, "last_mtf_trend": {},
+            "last_health_ping": None, "api_usage": {"date": None, "count": 0},
+        }
     with open(STATE_FILE, "r") as f:
         return json.load(f)
 
@@ -27,6 +30,26 @@ def load_state():
 def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+
+
+def _today_str():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def get_budget_remaining(state, daily_budget):
+    usage = state.setdefault("api_usage", {"date": _today_str(), "count": 0})
+    if usage["date"] != _today_str():
+        usage["date"] = _today_str()
+        usage["count"] = 0
+    return daily_budget - usage["count"]
+
+
+def record_api_call(state, n=1):
+    usage = state.setdefault("api_usage", {"date": _today_str(), "count": 0})
+    if usage["date"] != _today_str():
+        usage["date"] = _today_str()
+        usage["count"] = 0
+    usage["count"] += n
 
 
 def has_open_trade(state, symbol):
