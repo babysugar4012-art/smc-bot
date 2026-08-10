@@ -19,6 +19,7 @@ from structure_analysis import detect_trend, find_order_block, build_setup
 from trade_manager import (
     load_state, save_state, has_open_trade, register_trade,
     evaluate_open_trades, check_invalidation,
+    get_budget_remaining, record_api_call,
 )
 
 
@@ -38,15 +39,21 @@ def _cache_is_fresh(state, symbol, cache_key, max_age_minutes):
 def get_trend_cached(state, symbol, interval, cache_key, max_age_minutes):
     """
     Returns a trend string, refetching candles from Twelve Data only if
-    the cached value is older than max_age_minutes. Keeps API usage low
-    when scanning frequently for 15m entries.
+    the cached value is older than max_age_minutes AND the daily API
+    budget isn't exhausted. Keeps API usage low and safe when scanning
+    frequently for 15m entries.
     """
     if _cache_is_fresh(state, symbol, cache_key, max_age_minutes):
         return state[cache_key][symbol]["trend"]
 
+    if get_budget_remaining(state, config.DAILY_API_BUDGET) <= 0:
+        cached = state.get(cache_key, {}).get(symbol)
+        return cached["trend"] if cached else "ranging"
+
     candles = fetch_candles(symbol, interval, config.TWELVE_DATA_API_KEY, config.CANDLES_TO_FETCH)
-    if not candles:
-        # fall back to whatever's cached, even if stale, rather than failing the run
+    record_api_call(state)
+
+    if candles == "QUOTA_EXHAUSTED" or not candles:
         cached = state.get(cache_key, {}).get(symbol)
         return cached["trend"] if cached else "ranging"
 
@@ -144,10 +151,16 @@ def run():
         # own schedule — the 15m entry candles are fetched fresh every run.
         htf_trend = get_trend_cached(state, symbol, config.HTF_INTERVAL, "last_trend", config.HTF_REFRESH_MINUTES)
         mtf_trend = get_trend_cached(state, symbol, config.MTF_INTERVAL, "last_mtf_trend", config.MTF_REFRESH_MINUTES)
-        ltf_candles = fetch_candles(symbol, config.LTF_INTERVAL, config.TWELVE_DATA_API_KEY, config.CANDLES_TO_FETCH)
 
-        if not ltf_candles:
-            print(f"[main] skipping {symbol} — 15m data fetch failed")
+        if get_budget_remaining(state, config.DAILY_API_BUDGET) <= 0:
+            print(f"[main] daily API budget reached — skipping {symbol} 15m fetch until tomorrow")
+            continue
+
+        ltf_candles = fetch_candles(symbol, config.LTF_INTERVAL, config.TWELVE_DATA_API_KEY, config.CANDLES_TO_FETCH)
+        record_api_call(state)
+
+        if ltf_candles == "QUOTA_EXHAUSTED" or not ltf_candles:
+            print(f"[main] skipping {symbol} — 15m data fetch failed or quota hit")
             continue
 
         scanned.append(symbol)
