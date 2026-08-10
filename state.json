@@ -3,5 +3,8 @@
   "last_trend": {},
   "last_mtf_trend": {},
   "last_health_ping": null,
-  "api_usage": {"date": null, "count": 0}
+  "api_usage": {
+    "date": "2026-08-10",
+    "count": 3
+  }
 }
