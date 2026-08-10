@@ -2,5 +2,6 @@
   "open_trades": [],
   "last_trend": {},
   "last_mtf_trend": {},
-  "last_health_ping": null
+  "last_health_ping": null,
+  "api_usage": {"date": null, "count": 0}
 }
