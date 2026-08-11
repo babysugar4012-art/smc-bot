@@ -3,7 +3,7 @@
   "last_trend": {
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-11T04:07:41.747658+00:00"
+      "updated_at": "2026-08-11T08:14:58.140022+00:00"
     },
     "EUR/USD": {
       "trend": "bullish",
@@ -31,6 +31,6 @@
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-11",
-    "count": 11
+    "count": 15
   }
 }
