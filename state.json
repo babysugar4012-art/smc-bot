@@ -2,16 +2,16 @@
   "open_trades": [],
   "last_trend": {
     "BTC/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-08-11T12:15:26.217653+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-11T16:30:17.388794+00:00"
     },
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-11T12:15:25.051135+00:00"
+      "updated_at": "2026-08-11T16:30:15.912485+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-11T12:15:25.705935+00:00"
+      "updated_at": "2026-08-11T16:30:16.631325+00:00"
     }
   },
   "last_mtf_trend": {
@@ -31,6 +31,6 @@
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-11",
-    "count": 141
+    "count": 147
   }
 }
