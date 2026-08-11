@@ -17,7 +17,7 @@
   "last_mtf_trend": {
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-11T11:30:17.838089+00:00"
+      "updated_at": "2026-08-11T12:30:23.594573+00:00"
     },
     "EUR/USD": {
       "trend": "bearish",
@@ -31,6 +31,6 @@
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-11",
-    "count": 80
+    "count": 84
   }
 }
