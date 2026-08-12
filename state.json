@@ -21,16 +21,16 @@
     },
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-12T09:15:14.573911+00:00"
+      "updated_at": "2026-08-12T10:30:15.644201+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-12T09:15:15.201933+00:00"
+      "updated_at": "2026-08-12T10:30:15.915143+00:00"
     }
   },
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-12",
-    "count": 94
+    "count": 99
   }
 }
