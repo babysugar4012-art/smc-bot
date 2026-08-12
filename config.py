@@ -42,6 +42,15 @@ PARTIAL_TP_RR = [1.5, 2.5, 4.0]   # take-profit tranches, in R multiples
 PARTIAL_TP_PCT = [0.33, 0.33, 0.34]  # % of position closed at each tranche
 MOVE_SL_TO_BE_AFTER_TP_INDEX = 0  # after TP1 (index 0) hits, move SL to breakeven
 
+# --- Health ping ---
+# How often to send a "still scanning" ping to Telegram, regardless of how
+# often the scan itself runs. Keeps the channel quiet between real events.
+HEALTH_PING_INTERVAL_MINUTES = 240  # every 4 hours
+
+# --- Order block search window ---
+# How many recent LTF candles to scan for a qualifying order block.
+OB_SEARCH_BARS = 40
+
 # --- Session filter (UTC hours) — forex/metal only trade inside these windows ---
 FOREX_SESSION_HOURS_UTC = list(range(7, 21))  # London + New York overlap window
 
