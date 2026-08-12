@@ -16,8 +16,8 @@
   },
   "last_mtf_trend": {
     "BTC/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-08-12T03:15:14.160058+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-08-12T04:30:16.643598+00:00"
     },
     "EUR/USD": {
       "trend": "ranging",
@@ -31,6 +31,6 @@
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-12",
-    "count": 22
+    "count": 24
   }
 }
