@@ -3,7 +3,7 @@
   "last_trend": {
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-12T04:45:12.520521+00:00"
+      "updated_at": "2026-08-12T08:45:16.321880+00:00"
     },
     "EUR/USD": {
       "trend": "ranging",
@@ -31,6 +31,6 @@
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-12",
-    "count": 65
+    "count": 69
   }
 }
