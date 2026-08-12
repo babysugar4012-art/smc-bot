@@ -20,17 +20,17 @@
       "updated_at": "2026-08-12T08:00:17.241903+00:00"
     },
     "EUR/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-08-12T07:00:19.011375+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-12T08:15:13.062458+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-12T07:00:21.287638+00:00"
+      "updated_at": "2026-08-12T08:15:14.122560+00:00"
     }
   },
   "last_health_ping": null,
   "api_usage": {
     "date": "2026-08-12",
-    "count": 57
+    "count": 62
   }
 }
