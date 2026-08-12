@@ -124,7 +124,13 @@ def send_event_alert(event):
         send_message(config.TELEGRAM_BOT_TOKEN, config.TELEGRAM_CHAT_ID, msg)
 
 
-def send_health_ping(scanned, skipped):
+def send_health_ping(state, scanned, skipped):
+    last_ping = state.get("last_health_ping")
+    if last_ping:
+        elapsed = datetime.now(timezone.utc) - datetime.fromisoformat(last_ping)
+        if elapsed < timedelta(minutes=config.HEALTH_PING_INTERVAL_MINUTES):
+            return  # too soon — stay quiet
+
     msg = (
         f"🩺 *Bot health check*\n"
         f"Scanned: {', '.join(scanned) if scanned else 'none'}\n"
@@ -132,6 +138,7 @@ def send_health_ping(scanned, skipped):
         f"Time: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
     )
     send_message(config.TELEGRAM_BOT_TOKEN, config.TELEGRAM_CHAT_ID, msg)
+    state["last_health_ping"] = datetime.now(timezone.utc).isoformat()
 
 
 def run():
@@ -176,19 +183,30 @@ def run():
         # this is the selectivity filter: no alignment, no signal.
         aligned_trend = htf_trend if htf_trend == mtf_trend and htf_trend in ("bullish", "bearish") else None
 
+        print(f"[main] {symbol}: 4H={htf_trend} 1H={mtf_trend} aligned={aligned_trend or 'NO'} open_trade={has_open_trade(state, symbol)}")
+
         if aligned_trend and not has_open_trade(state, symbol):
-            ob = find_order_block(ltf_candles, aligned_trend)
+            debug = {}
+            ob = find_order_block(ltf_candles, aligned_trend, debug=debug)
+            print(f"[main] {symbol}: OB search — {debug}")
             if ob:
                 setup = build_setup(ob)
                 if setup:
                     register_trade(state, symbol, setup)
                     send_new_setup_alert(symbol, aligned_trend, setup)
+                    print(f"[main] {symbol}: NEW SETUP registered — {setup}")
+                else:
+                    print(f"[main] {symbol}: order block found but final R:R below {config.MIN_RR}, rejected")
+        elif not aligned_trend:
+            print(f"[main] {symbol}: skipped entry search — 4H/1H trend not aligned")
+        elif has_open_trade(state, symbol):
+            print(f"[main] {symbol}: skipped entry search — trade already open")
+
+    # Health ping — throttled to config.HEALTH_PING_INTERVAL_MINUTES so the
+    # channel stays quiet between real events instead of pinging every run.
+    send_health_ping(state, scanned, skipped)
 
     save_state(state)
-
-    # Periodic health ping — once per run is fine at an hourly schedule;
-    # tighten this check if you increase run frequency.
-    send_health_ping(scanned, skipped)
 
 
 if __name__ == "__main__":
