@@ -13,7 +13,7 @@ it returns no setup rather than guessing.
 
 from config import (
     SWING_LOOKBACK, MIN_SWINGS_FOR_TREND, MIN_RR, SL_BUFFER_PCT, PARTIAL_TP_RR,
-    MIN_FVG_ATR_RATIO, ATR_PERIOD,
+    MIN_FVG_ATR_RATIO, ATR_PERIOD, OB_SEARCH_BARS,
 )
 
 
@@ -138,25 +138,37 @@ def find_liquidity_sweep(candles, i, direction, swings):
         return False
 
 
-def find_order_block(candles, trend):
+def find_order_block(candles, trend, debug=None):
     """
-    Scans the last ~15 LTF candles for a valid order block in the
+    Scans the last OB_SEARCH_BARS LTF candles for a valid order block in the
     direction of `trend`, requiring:
       - a break of recent minor structure (impulse move)
-      - a fair value gap in the impulse
+      - a fair value gap in the impulse, large enough to clear noise
       - a preceding liquidity sweep
     Returns a dict describing the OB, or None if nothing qualifies.
+    If `debug` (a dict) is passed, it's filled with counters explaining
+    why candidates were rejected — useful for log visibility.
     """
+    if debug is None:
+        debug = {}
+    debug["candidate_candles"] = 0
+    debug["fvg_rejected"] = 0
+    debug["sweep_rejected"] = 0
+    debug["no_ob_candle"] = 0
+
     if trend not in ("bullish", "bearish"):
+        debug["reason"] = f"no directional trend (got '{trend}')"
         return None
 
     n = len(candles)
     if n < 20:
+        debug["reason"] = "not enough candles"
         return None
 
     swings = find_swings(candles)
     atr = compute_atr(candles)
-    search_range = range(max(SWING_LOOKBACK + 1, n - 16), n - SWING_LOOKBACK - 1)
+    lookback = min(OB_SEARCH_BARS, n - SWING_LOOKBACK - 1)
+    search_range = range(max(SWING_LOOKBACK + 1, n - lookback), n - SWING_LOOKBACK - 1)
 
     # Scan newest-first so we find the most recent qualifying OB.
     for i in reversed(list(search_range)):
@@ -165,39 +177,54 @@ def find_order_block(candles, trend):
         is_bear_candle = c["close"] < c["open"]
 
         if trend == "bullish" and is_bull_candle:
-            if find_fvg(candles, i, "bullish", atr) and find_liquidity_sweep(candles, i, "bullish", swings):
-                # The order block is the last down-close (or down-bodied) candle
-                # immediately before this impulse candle.
-                ob_index = i - 1
-                while ob_index >= 0 and candles[ob_index]["close"] > candles[ob_index]["open"]:
-                    ob_index -= 1
-                if ob_index < 0:
-                    continue
-                ob = candles[ob_index]
-                return {
-                    "direction": "long",
-                    "ob_index": ob_index,
-                    "ob_high": ob["high"],
-                    "ob_low": ob["low"],
-                    "impulse_index": i,
-                }
+            debug["candidate_candles"] += 1
+            if not find_fvg(candles, i, "bullish", atr):
+                debug["fvg_rejected"] += 1
+                continue
+            if not find_liquidity_sweep(candles, i, "bullish", swings):
+                debug["sweep_rejected"] += 1
+                continue
+            ob_index = i - 1
+            while ob_index >= 0 and candles[ob_index]["close"] > candles[ob_index]["open"]:
+                ob_index -= 1
+            if ob_index < 0:
+                debug["no_ob_candle"] += 1
+                continue
+            ob = candles[ob_index]
+            debug["reason"] = "found"
+            return {
+                "direction": "long",
+                "ob_index": ob_index,
+                "ob_high": ob["high"],
+                "ob_low": ob["low"],
+                "impulse_index": i,
+            }
 
         if trend == "bearish" and is_bear_candle:
-            if find_fvg(candles, i, "bearish", atr) and find_liquidity_sweep(candles, i, "bearish", swings):
-                ob_index = i - 1
-                while ob_index >= 0 and candles[ob_index]["close"] < candles[ob_index]["open"]:
-                    ob_index -= 1
-                if ob_index < 0:
-                    continue
-                ob = candles[ob_index]
-                return {
-                    "direction": "short",
-                    "ob_index": ob_index,
-                    "ob_high": ob["high"],
-                    "ob_low": ob["low"],
-                    "impulse_index": i,
-                }
+            debug["candidate_candles"] += 1
+            if not find_fvg(candles, i, "bearish", atr):
+                debug["fvg_rejected"] += 1
+                continue
+            if not find_liquidity_sweep(candles, i, "bearish", swings):
+                debug["sweep_rejected"] += 1
+                continue
+            ob_index = i - 1
+            while ob_index >= 0 and candles[ob_index]["close"] < candles[ob_index]["open"]:
+                ob_index -= 1
+            if ob_index < 0:
+                debug["no_ob_candle"] += 1
+                continue
+            ob = candles[ob_index]
+            debug["reason"] = "found"
+            return {
+                "direction": "short",
+                "ob_index": ob_index,
+                "ob_high": ob["high"],
+                "ob_low": ob["low"],
+                "impulse_index": i,
+            }
 
+    debug["reason"] = "no candidate cleared all filters"
     return None
 
 
