@@ -10,8 +10,8 @@
       "updated_at": "2026-08-12T20:15:21.682524+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-08-12T20:15:22.880010+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-13T00:30:17.609571+00:00"
     }
   },
   "last_mtf_trend": {
@@ -24,13 +24,13 @@
       "updated_at": "2026-08-12T20:03:07.861640+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-08-12T23:30:12.648984+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-13T00:30:18.311110+00:00"
     }
   },
-  "last_health_ping": "2026-08-12T20:15:23.719282+00:00",
+  "last_health_ping": "2026-08-13T00:30:19.501794+00:00",
   "api_usage": {
     "date": "2026-08-13",
-    "count": 2
+    "count": 5
   }
 }
