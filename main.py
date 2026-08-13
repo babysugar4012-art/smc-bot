@@ -179,9 +179,15 @@ def run():
         for ev in events:
             send_event_alert(ev)
 
-        # 2. Only look for a new entry if all three timeframes agree —
-        # this is the selectivity filter: no alignment, no signal.
-        aligned_trend = htf_trend if htf_trend == mtf_trend and htf_trend in ("bullish", "bearish") else None
+        # 2. Only look for a new entry if 4H has a clear directional trend
+        # AND 1H isn't actively opposing it. A "ranging" 1H no longer vetoes
+        # the setup — only a flat-out opposite 1H trend does.
+        if htf_trend not in ("bullish", "bearish"):
+            aligned_trend = None
+        elif mtf_trend == htf_trend or mtf_trend == "ranging":
+            aligned_trend = htf_trend
+        else:
+            aligned_trend = None  # 1H is actively opposing 4H
 
         print(f"[main] {symbol}: 4H={htf_trend} 1H={mtf_trend} aligned={aligned_trend or 'NO'} open_trade={has_open_trade(state, symbol)}")
 
