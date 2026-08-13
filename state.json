@@ -3,7 +3,7 @@
   "last_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-13T07:00:18.734333+00:00"
+      "updated_at": "2026-08-13T11:15:14.957320+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
@@ -31,6 +31,6 @@
   "last_health_ping": "2026-08-13T08:45:16.983721+00:00",
   "api_usage": {
     "date": "2026-08-13",
-    "count": 108
+    "count": 112
   }
 }
