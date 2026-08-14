@@ -383,7 +383,8 @@
       "risk": 51.3558,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -407,11 +408,11 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-08-14T17:45:12.382944+00:00"
+      "updated_at": "2026-08-14T18:45:14.485207+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-14T17:45:13.964087+00:00"
+      "updated_at": "2026-08-14T18:45:15.065176+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
@@ -421,6 +422,6 @@
   "last_health_ping": "2026-08-14T17:45:20.468811+00:00",
   "api_usage": {
     "date": "2026-08-14",
-    "count": 226
+    "count": 231
   }
 }
