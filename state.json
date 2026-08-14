@@ -24,13 +24,13 @@
       "updated_at": "2026-08-13T20:45:13.733242+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-08-13T23:00:17.415329+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-14T00:15:16.661229+00:00"
     }
   },
   "last_health_ping": "2026-08-13T21:00:21.001692+00:00",
   "api_usage": {
     "date": "2026-08-14",
-    "count": 1
+    "count": 3
   }
 }
