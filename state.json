@@ -108,11 +108,31 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-14T10:00:28.468251+00:00"
+    },
+    {
+      "id": "08f63a8d",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 63345.95,
+      "sl": 63397.3058,
+      "original_sl": 63397.3058,
+      "tps": [
+        63294.5942,
+        63243.2384,
+        63191.8826
+      ],
+      "risk": 51.3558,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-14T10:45:17.202264+00:00"
     }
   ],
   "last_trend": {
@@ -140,12 +160,12 @@
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-14T09:30:18.382434+00:00"
+      "updated_at": "2026-08-14T10:45:16.104281+00:00"
     }
   },
   "last_health_ping": "2026-08-14T09:30:20.717914+00:00",
   "api_usage": {
     "date": "2026-08-14",
-    "count": 96
+    "count": 100
   }
 }
