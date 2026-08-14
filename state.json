@@ -189,7 +189,7 @@
       "symbol": "BTC/USD",
       "direction": "short",
       "entry": 63345.95,
-      "sl": 63397.3058,
+      "sl": 63345.95,
       "original_sl": 63397.3058,
       "tps": [
         63294.5942,
@@ -198,8 +198,10 @@
       ],
       "risk": 51.3558,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-08-14T12:45:16.942573+00:00"
     }
@@ -221,20 +223,20 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-08-14T11:45:15.040487+00:00"
+      "updated_at": "2026-08-14T13:00:18.809751+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
-      "updated_at": "2026-08-14T11:45:15.677984+00:00"
+      "updated_at": "2026-08-14T13:00:21.986308+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-14T12:00:20.305938+00:00"
+      "updated_at": "2026-08-14T13:00:26.128246+00:00"
     }
   },
   "last_health_ping": "2026-08-14T09:30:20.717914+00:00",
   "api_usage": {
     "date": "2026-08-14",
-    "count": 132
+    "count": 138
   }
 }
