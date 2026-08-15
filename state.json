@@ -608,8 +608,8 @@
       "updated_at": "2026-08-15T15:15:14.023049+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-08-15T14:15:15.937731+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-15T18:30:18.406602+00:00"
     }
   },
   "last_mtf_trend": {
@@ -629,6 +629,6 @@
   "last_health_ping": "2026-08-15T14:51:57.656790+00:00",
   "api_usage": {
     "date": "2026-08-15",
-    "count": 247
+    "count": 251
   }
 }
