@@ -615,20 +615,20 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-15T17:41:33.450500+00:00"
+      "updated_at": "2026-08-15T18:45:15.374048+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-08-15T17:41:33.512829+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-08-15T18:45:15.654722+00:00"
     },
     "BTC/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-08-15T17:41:33.562897+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-15T18:45:15.978611+00:00"
     }
   },
   "last_health_ping": "2026-08-15T14:51:57.656790+00:00",
   "api_usage": {
     "date": "2026-08-15",
-    "count": 251
+    "count": 257
   }
 }
