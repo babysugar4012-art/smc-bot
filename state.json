@@ -689,8 +689,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-17T08:30:18.847191+00:00"
+    },
+    {
+      "id": "e8afc180",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 63108.8,
+      "sl": 63140.936,
+      "original_sl": 63140.936,
+      "tps": [
+        63076.664,
+        63044.528,
+        63012.392
+      ],
+      "risk": 32.136,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-17T08:45:15.356135+00:00"
     }
   ],
   "last_trend": {
@@ -724,6 +743,6 @@
   "last_health_ping": "2026-08-17T07:45:16.169259+00:00",
   "api_usage": {
     "date": "2026-08-17",
-    "count": 69
+    "count": 72
   }
 }
