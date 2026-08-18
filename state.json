@@ -872,7 +872,7 @@
       "symbol": "EUR/USD",
       "direction": "long",
       "entry": 1.15723,
-      "sl": 1.156972,
+      "sl": 1.15723,
       "original_sl": 1.156972,
       "tps": [
         1.157488,
@@ -881,8 +881,10 @@
       ],
       "risk": 0.000258,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-08-18T15:57:37.706433+00:00"
     }
@@ -918,6 +920,6 @@
   "last_health_ping": "2026-08-18T12:45:17.207298+00:00",
   "api_usage": {
     "date": "2026-08-18",
-    "count": 198
+    "count": 201
   }
 }
