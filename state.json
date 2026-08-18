@@ -882,7 +882,8 @@
       "risk": 0.000258,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -913,13 +914,13 @@
       "updated_at": "2026-08-18T15:57:38.429714+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-08-18T15:15:18.164862+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-18T16:15:20.072100+00:00"
     }
   },
   "last_health_ping": "2026-08-18T12:45:17.207298+00:00",
   "api_usage": {
     "date": "2026-08-18",
-    "count": 201
+    "count": 205
   }
 }
