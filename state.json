@@ -973,7 +973,8 @@
       "risk": 0.000258,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -982,12 +983,12 @@
   ],
   "last_trend": {
     "EUR/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-08-18T19:15:18.156883+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-19T07:00:20.462320+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-08-18T19:15:20.741710+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-08-19T07:00:24.004667+00:00"
     },
     "BTC/USD": {
       "trend": "bullish",
@@ -996,12 +997,12 @@
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-08-18T20:30:20.616085+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-19T07:00:20.799037+00:00"
     },
     "USD/JPY": {
       "trend": "bearish",
-      "updated_at": "2026-08-18T20:30:21.229948+00:00"
+      "updated_at": "2026-08-19T07:00:26.718768+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
@@ -1011,6 +1012,6 @@
   "last_health_ping": "2026-08-19T05:05:23.917464+00:00",
   "api_usage": {
     "date": "2026-08-19",
-    "count": 38
+    "count": 45
   }
 }
