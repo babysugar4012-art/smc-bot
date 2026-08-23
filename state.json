@@ -999,11 +999,11 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-23T15:44:37.306542+00:00"
+      "updated_at": "2026-08-23T16:45:14.834254+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-23T15:44:37.361783+00:00"
+      "updated_at": "2026-08-23T16:45:15.240144+00:00"
     },
     "BTC/USD": {
       "trend": "bullish",
@@ -1013,6 +1013,6 @@
   "last_health_ping": "2026-08-23T13:00:19.938560+00:00",
   "api_usage": {
     "date": "2026-08-23",
-    "count": 250
+    "count": 255
   }
 }
