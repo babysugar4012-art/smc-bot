@@ -989,7 +989,7 @@
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-23T07:00:15.133068+00:00"
+      "updated_at": "2026-08-23T11:13:49.742533+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
@@ -1013,6 +1013,6 @@
   "last_health_ping": "2026-08-23T09:00:17.078103+00:00",
   "api_usage": {
     "date": "2026-08-23",
-    "count": 135
+    "count": 139
   }
 }
