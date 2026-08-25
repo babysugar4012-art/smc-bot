@@ -1021,8 +1021,8 @@
       "updated_at": "2026-08-25T15:15:21.869555+00:00"
     },
     "USD/JPY": {
-      "trend": "bullish",
-      "updated_at": "2026-08-25T14:45:26.175549+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-25T16:00:16.662031+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
@@ -1032,6 +1032,6 @@
   "last_health_ping": "2026-08-25T14:36:42.848908+00:00",
   "api_usage": {
     "date": "2026-08-25",
-    "count": 213
+    "count": 217
   }
 }
