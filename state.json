@@ -1004,11 +1004,11 @@
   "last_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-25T07:00:19.615233+00:00"
+      "updated_at": "2026-08-25T11:15:16.136969+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-25T07:00:24.037096+00:00"
+      "updated_at": "2026-08-25T11:15:16.818333+00:00"
     },
     "BTC/USD": {
       "trend": "bullish",
@@ -1032,6 +1032,6 @@
   "last_health_ping": "2026-08-25T10:30:19.458460+00:00",
   "api_usage": {
     "date": "2026-08-25",
-    "count": 121
+    "count": 126
   }
 }
