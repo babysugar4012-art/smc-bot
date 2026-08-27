@@ -1189,14 +1189,33 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-27T15:00:23.167695+00:00"
+    },
+    {
+      "id": "5de0b6af",
+      "symbol": "EUR/USD",
+      "direction": "short",
+      "entry": 1.16428,
+      "sl": 1.164836,
+      "original_sl": 1.164836,
+      "tps": [
+        1.163724,
+        1.163168,
+        1.162611
+      ],
+      "risk": 0.000556,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-27T15:15:18.620575+00:00"
     }
   ],
   "last_trend": {
     "EUR/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-27T11:00:20.344088+00:00"
+      "updated_at": "2026-08-27T15:15:15.717571+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
@@ -1224,6 +1243,6 @@
   "last_health_ping": "2026-08-27T12:15:18.655121+00:00",
   "api_usage": {
     "date": "2026-08-27",
-    "count": 165
+    "count": 169
   }
 }
