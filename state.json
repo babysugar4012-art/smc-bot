@@ -1018,8 +1018,27 @@
         0
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-27T11:30:13.844813+00:00"
+    },
+    {
+      "id": "3e3f921f",
+      "symbol": "EUR/USD",
+      "direction": "short",
+      "entry": 1.16428,
+      "sl": 1.164836,
+      "original_sl": 1.164836,
+      "tps": [
+        1.163724,
+        1.163168,
+        1.162611
+      ],
+      "risk": 0.000556,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-27T12:15:15.928543+00:00"
     }
   ],
   "last_trend": {
@@ -1050,9 +1069,9 @@
       "updated_at": "2026-08-27T12:00:25.332843+00:00"
     }
   },
-  "last_health_ping": "2026-08-27T08:15:17.853988+00:00",
+  "last_health_ping": "2026-08-27T12:15:18.655121+00:00",
   "api_usage": {
     "date": "2026-08-27",
-    "count": 120
+    "count": 123
   }
 }
