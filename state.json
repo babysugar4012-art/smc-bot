@@ -1075,8 +1075,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-27T13:30:16.406111+00:00"
+    },
+    {
+      "id": "c9330c37",
+      "symbol": "EUR/USD",
+      "direction": "short",
+      "entry": 1.16428,
+      "sl": 1.164836,
+      "original_sl": 1.164836,
+      "tps": [
+        1.163724,
+        1.163168,
+        1.162611
+      ],
+      "risk": 0.000556,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-27T13:45:18.889815+00:00"
     }
   ],
   "last_trend": {
@@ -1096,11 +1115,11 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-27T12:45:16.822528+00:00"
+      "updated_at": "2026-08-27T13:45:17.223286+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-08-27T12:45:17.372349+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-08-27T13:45:19.990272+00:00"
     },
     "BTC/USD": {
       "trend": "bullish",
@@ -1110,6 +1129,6 @@
   "last_health_ping": "2026-08-27T12:15:18.655121+00:00",
   "api_usage": {
     "date": "2026-08-27",
-    "count": 142
+    "count": 147
   }
 }
