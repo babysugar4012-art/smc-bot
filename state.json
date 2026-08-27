@@ -1645,7 +1645,7 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-27T20:15:15.635495+00:00"
     },
     {
@@ -1664,8 +1664,46 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-27T20:15:19.518635+00:00"
+    },
+    {
+      "id": "8cfb4dcc",
+      "symbol": "EUR/USD",
+      "direction": "short",
+      "entry": 1.16428,
+      "sl": 1.164836,
+      "original_sl": 1.164836,
+      "tps": [
+        1.163724,
+        1.163168,
+        1.162611
+      ],
+      "risk": 0.000556,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-27T20:30:17.617558+00:00"
+    },
+    {
+      "id": "3dd7331b",
+      "symbol": "USD/JPY",
+      "direction": "long",
+      "entry": 159.4667,
+      "sl": 159.421689,
+      "original_sl": 159.421689,
+      "tps": [
+        159.511711,
+        159.556722,
+        159.601733
+      ],
+      "risk": 0.045011,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-27T20:30:19.829741+00:00"
     }
   ],
   "last_trend": {
@@ -1696,9 +1734,9 @@
       "updated_at": "2026-08-27T19:30:25.706264+00:00"
     }
   },
-  "last_health_ping": "2026-08-27T16:15:21.145536+00:00",
+  "last_health_ping": "2026-08-27T20:30:21.249874+00:00",
   "api_usage": {
     "date": "2026-08-27",
-    "count": 248
+    "count": 251
   }
 }
