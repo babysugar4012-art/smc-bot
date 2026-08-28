@@ -1809,10 +1809,11 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-28T16:30:18.461915+00:00"
     }
   ],
@@ -1837,16 +1838,16 @@
     },
     "USD/JPY": {
       "trend": "bullish",
-      "updated_at": "2026-08-28T16:15:17.402650+00:00"
+      "updated_at": "2026-08-28T17:15:20.235525+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
       "updated_at": "2026-08-28T16:30:19.385338+00:00"
     }
   },
-  "last_health_ping": "2026-08-28T13:15:26.222671+00:00",
+  "last_health_ping": "2026-08-28T17:15:31.822979+00:00",
   "api_usage": {
     "date": "2026-08-28",
-    "count": 197
+    "count": 201
   }
 }
