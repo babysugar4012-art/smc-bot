@@ -1775,7 +1775,7 @@
       "symbol": "USD/JPY",
       "direction": "long",
       "entry": 159.6577,
-      "sl": 159.565783,
+      "sl": 159.6577,
       "original_sl": 159.565783,
       "tps": [
         159.749617,
@@ -1784,8 +1784,10 @@
       ],
       "risk": 0.091917,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-08-28T15:45:15.664563+00:00"
     }
@@ -1821,6 +1823,6 @@
   "last_health_ping": "2026-08-28T13:15:26.222671+00:00",
   "api_usage": {
     "date": "2026-08-28",
-    "count": 179
+    "count": 182
   }
 }
