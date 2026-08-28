@@ -1751,7 +1751,7 @@
   "last_trend": {
     "EUR/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-28T07:00:16.505507+00:00"
+      "updated_at": "2026-08-28T11:00:17.886018+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
@@ -1779,6 +1779,6 @@
   "last_health_ping": "2026-08-28T09:00:22.737320+00:00",
   "api_usage": {
     "date": "2026-08-28",
-    "count": 99
+    "count": 103
   }
 }
