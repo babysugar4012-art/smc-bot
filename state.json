@@ -1786,11 +1786,31 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-28T15:45:15.664563+00:00"
+    },
+    {
+      "id": "83f555db",
+      "symbol": "USD/JPY",
+      "direction": "long",
+      "entry": 159.6577,
+      "sl": 159.565783,
+      "original_sl": 159.565783,
+      "tps": [
+        159.749617,
+        159.841534,
+        159.933452
+      ],
+      "risk": 0.091917,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-28T16:30:18.461915+00:00"
     }
   ],
   "last_trend": {
@@ -1810,7 +1830,7 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-28T15:15:16.710848+00:00"
+      "updated_at": "2026-08-28T16:30:15.852518+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
@@ -1818,12 +1838,12 @@
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-08-28T15:15:24.205693+00:00"
+      "updated_at": "2026-08-28T16:30:19.385338+00:00"
     }
   },
   "last_health_ping": "2026-08-28T13:15:26.222671+00:00",
   "api_usage": {
     "date": "2026-08-28",
-    "count": 186
+    "count": 191
   }
 }
