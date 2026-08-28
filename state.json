@@ -1763,11 +1763,31 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-28T15:00:32.138942+00:00"
+    },
+    {
+      "id": "774a746f",
+      "symbol": "USD/JPY",
+      "direction": "long",
+      "entry": 159.6577,
+      "sl": 159.565783,
+      "original_sl": 159.565783,
+      "tps": [
+        159.749617,
+        159.841534,
+        159.933452
+      ],
+      "risk": 0.091917,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-28T15:45:15.664563+00:00"
     }
   ],
   "last_trend": {
@@ -1801,6 +1821,6 @@
   "last_health_ping": "2026-08-28T13:15:26.222671+00:00",
   "api_usage": {
     "date": "2026-08-28",
-    "count": 176
+    "count": 179
   }
 }
