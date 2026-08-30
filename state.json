@@ -1834,20 +1834,20 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-30T13:45:14.943391+00:00"
+      "updated_at": "2026-08-30T15:00:18.156211+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-30T13:45:15.308930+00:00"
+      "updated_at": "2026-08-30T15:00:18.379292+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-30T13:45:15.628613+00:00"
+      "updated_at": "2026-08-30T15:00:18.656993+00:00"
     }
   },
   "last_health_ping": "2026-08-30T11:00:23.789782+00:00",
   "api_usage": {
     "date": "2026-08-30",
-    "count": 165
+    "count": 171
   }
 }
