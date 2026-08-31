@@ -1832,8 +1832,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-31T16:30:45.504486+00:00"
+    },
+    {
+      "id": "33e68f67",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 78276.0,
+      "sl": 78551.8958,
+      "original_sl": 78551.8958,
+      "tps": [
+        78000.1042,
+        77724.2084,
+        77448.3126
+      ],
+      "risk": 275.8958,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-31T16:45:15.474167+00:00"
     }
   ],
   "last_trend": {
@@ -1867,6 +1886,6 @@
   "last_health_ping": "2026-08-31T16:30:46.333393+00:00",
   "api_usage": {
     "date": "2026-08-31",
-    "count": 194
+    "count": 197
   }
 }
