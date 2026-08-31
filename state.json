@@ -1834,7 +1834,7 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-08-31T11:45:17.008488+00:00"
+      "updated_at": "2026-08-31T13:00:25.163106+00:00"
     },
     "USD/JPY": {
       "trend": "bearish",
@@ -1848,6 +1848,6 @@
   "last_health_ping": "2026-08-31T12:15:25.261783+00:00",
   "api_usage": {
     "date": "2026-08-31",
-    "count": 136
+    "count": 140
   }
 }
