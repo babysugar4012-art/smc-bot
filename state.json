@@ -2155,7 +2155,7 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-31T20:30:17.922268+00:00"
     }
   ],
@@ -2169,8 +2169,8 @@
       "updated_at": "2026-08-31T19:30:21.247314+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-08-31T16:30:44.728661+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-08-31T20:45:15.845500+00:00"
     }
   },
   "last_mtf_trend": {
@@ -2180,16 +2180,16 @@
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-31T19:30:21.869808+00:00"
+      "updated_at": "2026-08-31T20:45:15.067802+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-31T19:30:46.330753+00:00"
+      "updated_at": "2026-08-31T20:45:16.060614+00:00"
     }
   },
-  "last_health_ping": "2026-08-31T16:30:46.333393+00:00",
+  "last_health_ping": "2026-08-31T20:45:17.890196+00:00",
   "api_usage": {
     "date": "2026-08-31",
-    "count": 256
+    "count": 262
   }
 }
