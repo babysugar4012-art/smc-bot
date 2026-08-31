@@ -2060,18 +2060,37 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-08-31T19:15:17.870445+00:00"
+    },
+    {
+      "id": "b4cc93de",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 78276.0,
+      "sl": 78551.8958,
+      "original_sl": 78551.8958,
+      "tps": [
+        78000.1042,
+        77724.2084,
+        77448.3126
+      ],
+      "risk": 275.8958,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-08-31T19:30:47.211141+00:00"
     }
   ],
   "last_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-31T15:15:22.733805+00:00"
+      "updated_at": "2026-08-31T19:30:20.325738+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
-      "updated_at": "2026-08-31T15:15:26.194284+00:00"
+      "updated_at": "2026-08-31T19:30:21.247314+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
@@ -2085,16 +2104,16 @@
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-08-31T18:15:16.999900+00:00"
+      "updated_at": "2026-08-31T19:30:21.869808+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-08-31T18:15:18.506316+00:00"
+      "updated_at": "2026-08-31T19:30:46.330753+00:00"
     }
   },
   "last_health_ping": "2026-08-31T16:30:46.333393+00:00",
   "api_usage": {
     "date": "2026-08-31",
-    "count": 236
+    "count": 243
   }
 }
