@@ -2197,11 +2197,50 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-01T16:30:23.624601+00:00"
+    },
+    {
+      "id": "bab5473d",
+      "symbol": "USD/JPY",
+      "direction": "long",
+      "entry": 160.06543,
+      "sl": 160.010603,
+      "original_sl": 160.010603,
+      "tps": [
+        160.120257,
+        160.175084,
+        160.229911
+      ],
+      "risk": 0.054827,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-01T17:15:20.959881+00:00"
+    },
+    {
+      "id": "60d80271",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 78232.36,
+      "sl": 78410.1792,
+      "original_sl": 78410.1792,
+      "tps": [
+        78054.5408,
+        77876.7216,
+        77698.9024
+      ],
+      "risk": 177.8192,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-01T17:15:24.386726+00:00"
     }
   ],
   "last_trend": {
@@ -2215,7 +2254,7 @@
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-09-01T13:15:19.990151+00:00"
+      "updated_at": "2026-09-01T17:15:22.017660+00:00"
     }
   },
   "last_mtf_trend": {
@@ -2232,9 +2271,9 @@
       "updated_at": "2026-09-01T16:45:21.509632+00:00"
     }
   },
-  "last_health_ping": "2026-09-01T13:15:20.866446+00:00",
+  "last_health_ping": "2026-09-01T17:15:25.612083+00:00",
   "api_usage": {
     "date": "2026-09-01",
-    "count": 201
+    "count": 205
   }
 }
