@@ -2173,7 +2173,8 @@
       "risk": 177.8192,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -2211,6 +2212,6 @@
   "last_health_ping": "2026-09-01T13:15:20.866446+00:00",
   "api_usage": {
     "date": "2026-09-01",
-    "count": 186
+    "count": 189
   }
 }
