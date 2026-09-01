@@ -2301,7 +2301,7 @@
       "symbol": "USD/JPY",
       "direction": "long",
       "entry": 160.06543,
-      "sl": 160.010603,
+      "sl": 160.06543,
       "original_sl": 160.010603,
       "tps": [
         160.120257,
@@ -2310,8 +2310,10 @@
       ],
       "risk": 0.054827,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-09-01T18:45:19.357448+00:00"
     },
@@ -2320,7 +2322,7 @@
       "symbol": "BTC/USD",
       "direction": "short",
       "entry": 77508.33,
-      "sl": 77727.6479,
+      "sl": 77508.33,
       "original_sl": 77727.6479,
       "tps": [
         77289.0121,
@@ -2329,8 +2331,10 @@
       ],
       "risk": 219.3179,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-09-01T18:45:20.724197+00:00"
     }
@@ -2366,6 +2370,6 @@
   "last_health_ping": "2026-09-01T17:15:25.612083+00:00",
   "api_usage": {
     "date": "2026-09-01",
-    "count": 226
+    "count": 229
   }
 }
