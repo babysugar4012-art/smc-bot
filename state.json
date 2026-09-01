@@ -2175,8 +2175,8 @@
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-09-01T09:15:14.049217+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-09-01T10:15:15.972711+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
@@ -2190,6 +2190,6 @@
   "last_health_ping": "2026-09-01T09:15:19.141458+00:00",
   "api_usage": {
     "date": "2026-09-01",
-    "count": 87
+    "count": 91
   }
 }
