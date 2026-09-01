@@ -2403,8 +2403,27 @@
         1
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-01T21:15:14.533130+00:00"
+    },
+    {
+      "id": "a7710d32",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 77508.33,
+      "sl": 77727.6479,
+      "original_sl": 77727.6479,
+      "tps": [
+        77289.0121,
+        77069.6942,
+        76850.3763
+      ],
+      "risk": 219.3179,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-01T23:42:34.031156+00:00"
     }
   ],
   "last_trend": {
@@ -2438,6 +2457,6 @@
   "last_health_ping": "2026-09-01T21:30:17.280699+00:00",
   "api_usage": {
     "date": "2026-09-01",
-    "count": 276
+    "count": 277
   }
 }
