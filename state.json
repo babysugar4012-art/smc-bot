@@ -2411,7 +2411,7 @@
       "symbol": "BTC/USD",
       "direction": "short",
       "entry": 77508.33,
-      "sl": 77727.6479,
+      "sl": 77508.33,
       "original_sl": 77727.6479,
       "tps": [
         77289.0121,
@@ -2420,8 +2420,10 @@
       ],
       "risk": 219.3179,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-09-01T23:42:34.031156+00:00"
     }
@@ -2457,6 +2459,6 @@
   "last_health_ping": "2026-09-01T21:30:17.280699+00:00",
   "api_usage": {
     "date": "2026-09-02",
-    "count": 4
+    "count": 5
   }
 }
