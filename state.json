@@ -2525,21 +2525,21 @@
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-09-02T11:45:17.991558+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-09-02T13:00:18.594923+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-09-02T11:45:18.876021+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-09-02T13:00:21.346180+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-09-02T11:45:20.896412+00:00"
+      "updated_at": "2026-09-02T13:00:24.107571+00:00"
     }
   },
   "last_health_ping": "2026-09-02T09:45:17.272179+00:00",
   "api_usage": {
     "date": "2026-09-02",
-    "count": 135
+    "count": 141
   }
 }
