@@ -2505,7 +2505,7 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-02T07:15:18.215581+00:00"
     }
   ],
@@ -2540,6 +2540,6 @@
   "last_health_ping": "2026-09-02T05:45:16.772854+00:00",
   "api_usage": {
     "date": "2026-09-02",
-    "count": 51
+    "count": 54
   }
 }
