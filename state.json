@@ -2467,8 +2467,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-02T07:00:21.521029+00:00"
+    },
+    {
+      "id": "2e895d87",
+      "symbol": "USD/JPY",
+      "direction": "long",
+      "entry": 160.06543,
+      "sl": 160.010603,
+      "original_sl": 160.010603,
+      "tps": [
+        160.120257,
+        160.175084,
+        160.229911
+      ],
+      "risk": 0.054827,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-02T07:12:46.623130+00:00"
     }
   ],
   "last_trend": {
@@ -2496,12 +2515,12 @@
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-02T06:00:24.418243+00:00"
+      "updated_at": "2026-09-02T07:12:47.367574+00:00"
     }
   },
   "last_health_ping": "2026-09-02T05:45:16.772854+00:00",
   "api_usage": {
     "date": "2026-09-02",
-    "count": 44
+    "count": 48
   }
 }
