@@ -2524,8 +2524,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-07T07:00:16.994719+00:00"
+    },
+    {
+      "id": "e800c45b",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16164,
+      "sl": 1.16131,
+      "original_sl": 1.16131,
+      "tps": [
+        1.16197,
+        1.162299,
+        1.162629
+      ],
+      "risk": 0.00033,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-07T07:15:13.341981+00:00"
     }
   ],
   "last_trend": {
@@ -2559,6 +2578,6 @@
   "last_health_ping": "2026-09-07T05:30:59.187970+00:00",
   "api_usage": {
     "date": "2026-09-07",
-    "count": 46
+    "count": 49
   }
 }
