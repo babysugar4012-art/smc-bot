@@ -2574,7 +2574,7 @@
       "symbol": "EUR/USD",
       "direction": "long",
       "entry": 1.16164,
-      "sl": 1.16131,
+      "sl": 1.16164,
       "original_sl": 1.16131,
       "tps": [
         1.16197,
@@ -2583,8 +2583,10 @@
       ],
       "risk": 0.00033,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-09-07T08:30:15.200377+00:00"
     }
@@ -2614,12 +2616,12 @@
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-07T07:45:15.828703+00:00"
+      "updated_at": "2026-09-07T08:45:18.674484+00:00"
     }
   },
   "last_health_ping": "2026-09-07T05:30:59.187970+00:00",
   "api_usage": {
     "date": "2026-09-07",
-    "count": 67
+    "count": 71
   }
 }
