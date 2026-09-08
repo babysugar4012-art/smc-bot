@@ -2611,7 +2611,7 @@
         1
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-07T09:45:18.277830+00:00"
     }
   ],
@@ -2646,6 +2646,6 @@
   "last_health_ping": "2026-09-08T06:45:12.850206+00:00",
   "api_usage": {
     "date": "2026-09-08",
-    "count": 44
+    "count": 47
   }
 }
