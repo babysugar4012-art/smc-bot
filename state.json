@@ -2613,16 +2613,54 @@
       "breakeven": true,
       "status": "closed",
       "opened_at": "2026-09-07T09:45:18.277830+00:00"
+    },
+    {
+      "id": "998aa29a",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16369,
+      "sl": 1.16334,
+      "original_sl": 1.16334,
+      "tps": [
+        1.16404,
+        1.16439,
+        1.164741
+      ],
+      "risk": 0.00035,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-09T07:00:20.518724+00:00"
+    },
+    {
+      "id": "0ddf9d86",
+      "symbol": "USD/JPY",
+      "direction": "short",
+      "entry": 153.47366,
+      "sl": 153.582964,
+      "original_sl": 153.582964,
+      "tps": [
+        153.364356,
+        153.255053,
+        153.145749
+      ],
+      "risk": 0.109304,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-09T07:00:26.219599+00:00"
     }
   ],
   "last_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-09-08T19:30:19.252899+00:00"
+      "updated_at": "2026-09-09T07:00:19.653518+00:00"
     },
     "USD/JPY": {
       "trend": "bearish",
-      "updated_at": "2026-09-08T19:30:22.128221+00:00"
+      "updated_at": "2026-09-09T07:00:21.432478+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
@@ -2631,12 +2669,12 @@
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-09-08T20:00:19.658995+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-09-09T07:00:19.965760+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-09-08T20:00:21.510597+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-09-09T07:00:25.857040+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
@@ -2646,6 +2684,6 @@
   "last_health_ping": "2026-09-09T03:15:17.030047+00:00",
   "api_usage": {
     "date": "2026-09-09",
-    "count": 37
+    "count": 44
   }
 }
