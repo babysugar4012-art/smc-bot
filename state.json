@@ -3747,8 +3747,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-09T20:15:14.122040+00:00"
+    },
+    {
+      "id": "ca1aec5f",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16369,
+      "sl": 1.16334,
+      "original_sl": 1.16334,
+      "tps": [
+        1.16404,
+        1.16439,
+        1.164741
+      ],
+      "risk": 0.00035,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-09T20:30:16.759527+00:00"
     }
   ],
   "last_trend": {
@@ -3768,20 +3787,20 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-09T19:15:22.042077+00:00"
+      "updated_at": "2026-09-09T20:30:16.202806+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-09-09T19:15:25.212544+00:00"
+      "updated_at": "2026-09-09T20:30:17.338131+00:00"
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-09-09T19:15:25.990586+00:00"
+      "updated_at": "2026-09-09T20:30:18.615122+00:00"
     }
   },
   "last_health_ping": "2026-09-09T19:45:28.313207+00:00",
   "api_usage": {
     "date": "2026-09-09",
-    "count": 253
+    "count": 259
   }
 }
