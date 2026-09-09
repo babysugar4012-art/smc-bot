@@ -3461,7 +3461,7 @@
         0
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-09T16:45:27.982403+00:00"
     },
     {
@@ -3492,7 +3492,7 @@
       "symbol": "BTC/USD",
       "direction": "short",
       "entry": 79464.08,
-      "sl": 79646.1428,
+      "sl": 79464.08,
       "original_sl": 79646.1428,
       "tps": [
         79282.0172,
@@ -3501,10 +3501,31 @@
       ],
       "risk": 182.0628,
       "rr_final": 3.0,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
+      "status": "open",
+      "opened_at": "2026-09-09T17:30:16.126613+00:00"
+    },
+    {
+      "id": "6950dcdf",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16369,
+      "sl": 1.16334,
+      "original_sl": 1.16334,
+      "tps": [
+        1.16404,
+        1.16439,
+        1.164741
+      ],
+      "risk": 0.00035,
+      "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
       "status": "open",
-      "opened_at": "2026-09-09T17:30:16.126613+00:00"
+      "opened_at": "2026-09-09T17:45:13.378724+00:00"
     }
   ],
   "last_trend": {
@@ -3538,6 +3559,6 @@
   "last_health_ping": "2026-09-09T15:30:49.362549+00:00",
   "api_usage": {
     "date": "2026-09-09",
-    "count": 208
+    "count": 211
   }
 }
