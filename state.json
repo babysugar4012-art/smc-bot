@@ -3667,7 +3667,7 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-09T19:30:16.057298+00:00"
     },
     {
@@ -3675,7 +3675,7 @@
       "symbol": "BTC/USD",
       "direction": "short",
       "entry": 79464.08,
-      "sl": 79646.1428,
+      "sl": 79464.08,
       "original_sl": 79646.1428,
       "tps": [
         79282.0172,
@@ -3684,10 +3684,31 @@
       ],
       "risk": 182.0628,
       "rr_final": 3.0,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
+      "status": "open",
+      "opened_at": "2026-09-09T19:30:20.985715+00:00"
+    },
+    {
+      "id": "ac98cb0c",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16369,
+      "sl": 1.16334,
+      "original_sl": 1.16334,
+      "tps": [
+        1.16404,
+        1.16439,
+        1.164741
+      ],
+      "risk": 0.00035,
+      "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
       "status": "open",
-      "opened_at": "2026-09-09T19:30:20.985715+00:00"
+      "opened_at": "2026-09-09T19:45:18.290519+00:00"
     }
   ],
   "last_trend": {
@@ -3700,8 +3721,8 @@
       "updated_at": "2026-09-09T19:30:18.554656+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-09-09T15:30:46.369838+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-09-09T19:45:23.331529+00:00"
     }
   },
   "last_mtf_trend": {
@@ -3718,9 +3739,9 @@
       "updated_at": "2026-09-09T19:15:25.990586+00:00"
     }
   },
-  "last_health_ping": "2026-09-09T15:30:49.362549+00:00",
+  "last_health_ping": "2026-09-09T19:45:28.313207+00:00",
   "api_usage": {
     "date": "2026-09-09",
-    "count": 243
+    "count": 247
   }
 }
