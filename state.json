@@ -2678,7 +2678,7 @@
         0
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-09T08:00:17.725907+00:00"
     },
     {
@@ -2699,8 +2699,46 @@
         0
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-09T08:00:20.445992+00:00"
+    },
+    {
+      "id": "c3e49fe8",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16369,
+      "sl": 1.16334,
+      "original_sl": 1.16334,
+      "tps": [
+        1.16404,
+        1.16439,
+        1.164741
+      ],
+      "risk": 0.00035,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-09T08:30:13.663089+00:00"
+    },
+    {
+      "id": "ccc7d676",
+      "symbol": "USD/JPY",
+      "direction": "short",
+      "entry": 153.47366,
+      "sl": 153.582964,
+      "original_sl": 153.582964,
+      "tps": [
+        153.364356,
+        153.255053,
+        153.145749
+      ],
+      "risk": 0.109304,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-09T08:30:14.541161+00:00"
     }
   ],
   "last_trend": {
@@ -2734,6 +2772,6 @@
   "last_health_ping": "2026-09-09T07:15:20.456239+00:00",
   "api_usage": {
     "date": "2026-09-09",
-    "count": 64
+    "count": 67
   }
 }
