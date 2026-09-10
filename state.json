@@ -3829,11 +3829,31 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-10T07:45:14.434217+00:00"
+    },
+    {
+      "id": "39dee105",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.16301,
+      "sl": 1.162794,
+      "original_sl": 1.162794,
+      "tps": [
+        1.163226,
+        1.163443,
+        1.163659
+      ],
+      "risk": 0.000216,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-10T08:30:22.253450+00:00"
     }
   ],
   "last_trend": {
@@ -3847,7 +3867,7 @@
     },
     "BTC/USD": {
       "trend": "bullish",
-      "updated_at": "2026-09-10T04:15:19.301776+00:00"
+      "updated_at": "2026-09-10T08:30:23.989702+00:00"
     }
   },
   "last_mtf_trend": {
@@ -3867,6 +3887,6 @@
   "last_health_ping": "2026-09-10T08:15:21.893985+00:00",
   "api_usage": {
     "date": "2026-09-10",
-    "count": 66
+    "count": 70
   }
 }
