@@ -3854,6 +3854,25 @@
       "breakeven": false,
       "status": "closed",
       "opened_at": "2026-09-10T08:30:22.253450+00:00"
+    },
+    {
+      "id": "10682128",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 77080.0,
+      "sl": 77195.0407,
+      "original_sl": 77195.0407,
+      "tps": [
+        76964.9593,
+        76849.9186,
+        76734.8779
+      ],
+      "risk": 115.0407,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-10T23:35:06.700374+00:00"
     }
   ],
   "last_trend": {
@@ -3881,12 +3900,12 @@
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-10T21:43:08.909045+00:00"
+      "updated_at": "2026-09-10T23:35:06.442980+00:00"
     }
   },
   "last_health_ping": "2026-09-10T21:43:09.940550+00:00",
   "api_usage": {
     "date": "2026-09-10",
-    "count": 96
+    "count": 98
   }
 }
