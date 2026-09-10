@@ -3818,7 +3818,7 @@
       "symbol": "EUR/USD",
       "direction": "long",
       "entry": 1.16301,
-      "sl": 1.162794,
+      "sl": 1.16301,
       "original_sl": 1.162794,
       "tps": [
         1.163226,
@@ -3827,8 +3827,10 @@
       ],
       "risk": 0.000216,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-09-10T07:45:14.434217+00:00"
     }
@@ -3850,7 +3852,7 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-09-10T07:00:17.547991+00:00"
+      "updated_at": "2026-09-10T08:00:19.798362+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
@@ -3864,6 +3866,6 @@
   "last_health_ping": "2026-09-10T04:15:20.326099+00:00",
   "api_usage": {
     "date": "2026-09-10",
-    "count": 57
+    "count": 61
   }
 }
