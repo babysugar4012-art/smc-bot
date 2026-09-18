@@ -4018,8 +4018,27 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-09-18T14:05:25.671924+00:00"
+    },
+    {
+      "id": "61bb1023",
+      "symbol": "BTC/USD",
+      "direction": "long",
+      "entry": 80976.59,
+      "sl": 80634.8463,
+      "original_sl": 80634.8463,
+      "tps": [
+        81318.3337,
+        81660.0774,
+        82001.8211
+      ],
+      "risk": 341.7437,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-18T17:45:41.615741+00:00"
     }
   ],
   "last_trend": {
@@ -4038,21 +4057,21 @@
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-09-18T14:05:25.500628+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-09-18T17:45:40.477468+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
-      "updated_at": "2026-09-18T14:05:25.629240+00:00"
+      "updated_at": "2026-09-18T17:45:40.687411+00:00"
     },
     "BTC/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-09-18T14:05:26.771011+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-09-18T17:45:41.510528+00:00"
     }
   },
   "last_health_ping": "2026-09-18T14:05:57.339498+00:00",
   "api_usage": {
     "date": "2026-09-18",
-    "count": 24
+    "count": 30
   }
 }
