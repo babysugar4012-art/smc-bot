@@ -4060,6 +4060,25 @@
       "breakeven": false,
       "status": "closed",
       "opened_at": "2026-09-18T20:13:02.331314+00:00"
+    },
+    {
+      "id": "b863a3a0",
+      "symbol": "BTC/USD",
+      "direction": "long",
+      "entry": 80387.98,
+      "sl": 80325.8298,
+      "original_sl": 80325.8298,
+      "tps": [
+        80450.1302,
+        80512.2804,
+        80574.4306
+      ],
+      "risk": 62.1502,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-09-20T16:54:14.661438+00:00"
     }
   ],
   "last_trend": {
@@ -4078,21 +4097,21 @@
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-09-20T13:07:54.716502+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-09-20T16:54:14.503947+00:00"
     },
     "USD/JPY": {
-      "trend": "bearish",
-      "updated_at": "2026-09-20T13:07:54.976996+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-09-20T16:54:14.571742+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-20T13:07:55.246438+00:00"
+      "updated_at": "2026-09-20T16:54:14.633052+00:00"
     }
   },
   "last_health_ping": "2026-09-20T13:08:05.847385+00:00",
   "api_usage": {
     "date": "2026-09-20",
-    "count": 21
+    "count": 27
   }
 }
