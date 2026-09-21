@@ -4099,7 +4099,8 @@
       "risk": 173.0503,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -4131,12 +4132,12 @@
     },
     "BTC/USD": {
       "trend": "bullish",
-      "updated_at": "2026-09-21T20:04:05.621265+00:00"
+      "updated_at": "2026-09-21T23:26:25.306645+00:00"
     }
   },
   "last_health_ping": "2026-09-21T20:04:36.493622+00:00",
   "api_usage": {
     "date": "2026-09-21",
-    "count": 29
+    "count": 31
   }
 }
