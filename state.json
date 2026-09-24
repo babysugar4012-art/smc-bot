@@ -4158,7 +4158,7 @@
       "symbol": "EUR/USD",
       "direction": "short",
       "entry": 1.13812,
-      "sl": 1.13845,
+      "sl": 1.13812,
       "original_sl": 1.13845,
       "tps": [
         1.13779,
@@ -4167,8 +4167,10 @@
       ],
       "risk": 0.00033,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-09-24T12:38:14.237077+00:00"
     }
@@ -4176,34 +4178,34 @@
   "last_trend": {
     "EUR/USD": {
       "trend": "bearish",
-      "updated_at": "2026-09-24T12:38:14.003314+00:00"
+      "updated_at": "2026-09-24T17:40:13.960204+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
-      "updated_at": "2026-09-24T12:38:14.852220+00:00"
+      "updated_at": "2026-09-24T17:40:15.168474+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-24T12:38:16.134555+00:00"
+      "updated_at": "2026-09-24T17:40:15.427008+00:00"
     }
   },
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bearish",
-      "updated_at": "2026-09-24T12:38:14.126029+00:00"
+      "updated_at": "2026-09-24T17:40:14.059598+00:00"
     },
     "USD/JPY": {
-      "trend": "bearish",
-      "updated_at": "2026-09-24T12:38:14.965133+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-09-24T17:40:15.256199+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-09-24T12:38:16.239748+00:00"
+      "updated_at": "2026-09-24T17:40:15.494047+00:00"
     }
   },
-  "last_health_ping": "2026-09-24T12:38:47.042745+00:00",
+  "last_health_ping": "2026-09-24T17:40:46.206658+00:00",
   "api_usage": {
     "date": "2026-09-24",
-    "count": 14
+    "count": 23
   }
 }
