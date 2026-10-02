@@ -4293,7 +4293,8 @@
       "risk": 0.000978,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -4303,34 +4304,34 @@
   "last_trend": {
     "EUR/USD": {
       "trend": "bearish",
-      "updated_at": "2026-10-01T20:00:12.662888+00:00"
+      "updated_at": "2026-10-02T10:49:12.185395+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-10-01T20:00:13.534696+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-10-02T10:49:12.987665+00:00"
     },
     "BTC/USD": {
       "trend": "bullish",
-      "updated_at": "2026-10-02T04:50:28.504614+00:00"
+      "updated_at": "2026-10-02T10:49:13.348307+00:00"
     }
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-10-01T20:00:12.724840+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-10-02T10:49:12.302372+00:00"
     },
     "USD/JPY": {
       "trend": "bearish",
-      "updated_at": "2026-10-01T20:00:13.591108+00:00"
+      "updated_at": "2026-10-02T10:49:13.100571+00:00"
     },
     "BTC/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-10-02T04:50:28.537972+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-10-02T10:49:13.465057+00:00"
     }
   },
-  "last_health_ping": "2026-10-02T04:50:29.245743+00:00",
+  "last_health_ping": "2026-10-02T10:49:44.244855+00:00",
   "api_usage": {
     "date": "2026-10-02",
-    "count": 3
+    "count": 12
   }
 }
