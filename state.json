@@ -4272,10 +4272,11 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-10-01T01:26:50.636928+00:00"
     },
     {
@@ -4319,6 +4320,25 @@
       "breakeven": false,
       "status": "closed",
       "opened_at": "2026-10-02T16:26:27.943984+00:00"
+    },
+    {
+      "id": "7c5c89ff",
+      "symbol": "BTC/USD",
+      "direction": "long",
+      "entry": 86255.0,
+      "sl": 86134.49,
+      "original_sl": 86134.49,
+      "tps": [
+        86375.51,
+        86496.02,
+        86616.53
+      ],
+      "risk": 120.51,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-10-03T00:04:56.645346+00:00"
     }
   ],
   "last_trend": {
@@ -4346,12 +4366,12 @@
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-10-02T20:51:33.319078+00:00"
+      "updated_at": "2026-10-03T00:04:55.412393+00:00"
     }
   },
   "last_health_ping": "2026-10-02T20:52:04.098067+00:00",
   "api_usage": {
-    "date": "2026-10-02",
-    "count": 30
+    "date": "2026-10-03",
+    "count": 2
   }
 }
