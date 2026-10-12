@@ -4421,7 +4421,7 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-10-12T01:28:06.556994+00:00"
     }
   ],
@@ -4436,7 +4436,7 @@
     },
     "BTC/USD": {
       "trend": "bullish",
-      "updated_at": "2026-10-12T17:11:24.626979+00:00"
+      "updated_at": "2026-10-12T23:41:18.457836+00:00"
     }
   },
   "last_mtf_trend": {
@@ -4449,13 +4449,13 @@
       "updated_at": "2026-10-12T17:11:23.758260+00:00"
     },
     "BTC/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-10-12T17:11:25.073930+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-10-12T23:41:18.607120+00:00"
     }
   },
-  "last_health_ping": "2026-10-12T17:11:56.811687+00:00",
+  "last_health_ping": "2026-10-12T23:41:19.761308+00:00",
   "api_usage": {
     "date": "2026-10-12",
-    "count": 21
+    "count": 24
   }
 }
