@@ -4499,7 +4499,7 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-10-16T17:45:23.122718+00:00"
     },
     {
@@ -4518,8 +4518,46 @@
       "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-10-16T17:45:24.558370+00:00"
+    },
+    {
+      "id": "3f1c49c8",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.12539,
+      "sl": 1.124762,
+      "original_sl": 1.124762,
+      "tps": [
+        1.126018,
+        1.126647,
+        1.127275
+      ],
+      "risk": 0.000628,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-10-16T20:20:21.021627+00:00"
+    },
+    {
+      "id": "d6ed808d",
+      "symbol": "USD/JPY",
+      "direction": "short",
+      "entry": 157.90355,
+      "sl": 157.986166,
+      "original_sl": 157.986166,
+      "tps": [
+        157.820934,
+        157.738317,
+        157.655701
+      ],
+      "risk": 0.082616,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-10-16T20:20:22.391645+00:00"
     }
   ],
   "last_trend": {
@@ -4539,20 +4577,20 @@
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-10-16T17:45:22.458185+00:00"
+      "updated_at": "2026-10-16T20:20:20.388876+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-10-16T17:45:23.879959+00:00"
+      "updated_at": "2026-10-16T20:20:21.722927+00:00"
     },
     "BTC/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-10-16T17:45:25.333157+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-10-16T20:20:23.074262+00:00"
     }
   },
   "last_health_ping": "2026-10-16T17:45:56.209075+00:00",
   "api_usage": {
     "date": "2026-10-16",
-    "count": 29
+    "count": 35
   }
 }
