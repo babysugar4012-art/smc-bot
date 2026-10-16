@@ -4448,7 +4448,7 @@
       "symbol": "USD/JPY",
       "direction": "short",
       "entry": 158.10796,
-      "sl": 158.218695,
+      "sl": 158.10796,
       "original_sl": 158.218695,
       "tps": [
         157.997225,
@@ -4457,43 +4457,64 @@
       ],
       "risk": 0.110735,
       "rr_final": 3.0,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
+      "status": "open",
+      "opened_at": "2026-10-16T08:38:26.450189+00:00"
+    },
+    {
+      "id": "bc8f280f",
+      "symbol": "EUR/USD",
+      "direction": "long",
+      "entry": 1.12539,
+      "sl": 1.124762,
+      "original_sl": 1.124762,
+      "tps": [
+        1.126018,
+        1.126647,
+        1.127275
+      ],
+      "risk": 0.000628,
+      "rr_final": 3.0,
       "partials_hit": [],
       "breakeven": false,
       "status": "open",
-      "opened_at": "2026-10-16T08:38:26.450189+00:00"
+      "opened_at": "2026-10-16T13:39:25.692657+00:00"
     }
   ],
   "last_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-10-16T08:38:25.886500+00:00"
+      "updated_at": "2026-10-16T13:39:25.449061+00:00"
     },
     "USD/JPY": {
-      "trend": "bearish",
-      "updated_at": "2026-10-16T08:38:26.221594+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-10-16T13:39:26.355441+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-10-16T08:38:27.288606+00:00"
+      "updated_at": "2026-10-16T13:39:27.944974+00:00"
     }
   },
   "last_mtf_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-10-16T08:38:25.995688+00:00"
+      "updated_at": "2026-10-16T13:39:25.572826+00:00"
     },
     "USD/JPY": {
-      "trend": "bearish",
-      "updated_at": "2026-10-16T08:38:26.331071+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-10-16T13:39:26.490196+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-10-16T08:38:27.389959+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-10-16T13:39:28.057886+00:00"
     }
   },
-  "last_health_ping": "2026-10-16T08:38:58.135091+00:00",
+  "last_health_ping": "2026-10-16T13:39:59.012025+00:00",
   "api_usage": {
     "date": "2026-10-16",
-    "count": 11
+    "count": 20
   }
 }
