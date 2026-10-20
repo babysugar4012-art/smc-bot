@@ -4583,7 +4583,7 @@
       "symbol": "BTC/USD",
       "direction": "long",
       "entry": 81625.72,
-      "sl": 81407.6484,
+      "sl": 81625.72,
       "original_sl": 81407.6484,
       "tps": [
         81843.7916,
@@ -4592,8 +4592,10 @@
       ],
       "risk": 218.0716,
       "rr_final": 3.0,
-      "partials_hit": [],
-      "breakeven": false,
+      "partials_hit": [
+        0
+      ],
+      "breakeven": true,
       "status": "open",
       "opened_at": "2026-10-20T19:46:00.183643+00:00"
     }
@@ -4622,13 +4624,13 @@
       "updated_at": "2026-10-20T19:45:39.957085+00:00"
     },
     "BTC/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-10-20T19:45:40.071977+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-10-20T22:51:11.421293+00:00"
     }
   },
   "last_health_ping": "2026-10-20T19:46:00.992942+00:00",
   "api_usage": {
     "date": "2026-10-20",
-    "count": 32
+    "count": 34
   }
 }
