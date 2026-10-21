@@ -4600,39 +4600,58 @@
       "breakeven": true,
       "status": "closed",
       "opened_at": "2026-10-20T19:46:00.183643+00:00"
+    },
+    {
+      "id": "ea184fdf",
+      "symbol": "BTC/USD",
+      "direction": "long",
+      "entry": 83353.93,
+      "sl": 83246.2744,
+      "original_sl": 83246.2744,
+      "tps": [
+        83461.5856,
+        83569.2412,
+        83676.8968
+      ],
+      "risk": 107.6556,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-10-21T12:08:09.736169+00:00"
     }
   ],
   "last_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-10-20T19:45:39.831011+00:00"
+      "updated_at": "2026-10-21T12:07:48.518794+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-10-20T19:45:39.927409+00:00"
+      "updated_at": "2026-10-21T12:07:48.891379+00:00"
     },
     "BTC/USD": {
       "trend": "bullish",
-      "updated_at": "2026-10-21T06:13:22.239705+00:00"
+      "updated_at": "2026-10-21T12:07:49.272379+00:00"
     }
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bullish",
-      "updated_at": "2026-10-20T19:45:39.862000+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-10-21T12:07:48.650287+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-10-20T19:45:39.957085+00:00"
+      "updated_at": "2026-10-21T12:07:48.997321+00:00"
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-10-21T06:13:22.299940+00:00"
+      "updated_at": "2026-10-21T12:07:49.411310+00:00"
     }
   },
-  "last_health_ping": "2026-10-21T06:13:23.631378+00:00",
+  "last_health_ping": "2026-10-21T12:08:12.848569+00:00",
   "api_usage": {
     "date": "2026-10-21",
-    "count": 6
+    "count": 15
   }
 }
