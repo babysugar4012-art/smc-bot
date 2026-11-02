@@ -4703,34 +4703,34 @@
   "last_trend": {
     "EUR/USD": {
       "trend": "bullish",
-      "updated_at": "2026-11-01T19:50:23.750832+00:00"
+      "updated_at": "2026-11-02T10:22:23.012331+00:00"
     },
     "USD/JPY": {
       "trend": "bullish",
-      "updated_at": "2026-11-01T19:50:23.886057+00:00"
+      "updated_at": "2026-11-02T10:22:23.387139+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-11-02T02:39:16.211027+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-11-02T10:22:23.636758+00:00"
     }
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-11-01T19:50:23.794429+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-11-02T10:22:23.097328+00:00"
     },
     "USD/JPY": {
       "trend": "ranging",
-      "updated_at": "2026-11-01T19:50:23.911884+00:00"
+      "updated_at": "2026-11-02T10:22:23.479990+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-11-02T02:39:16.316305+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-11-02T10:22:23.706986+00:00"
     }
   },
-  "last_health_ping": "2026-11-02T02:39:16.890482+00:00",
+  "last_health_ping": "2026-11-02T10:22:54.355766+00:00",
   "api_usage": {
     "date": "2026-11-02",
-    "count": 3
+    "count": 12
   }
 }
