@@ -4733,7 +4733,8 @@
       "risk": 204.3932,
       "rr_final": 3.0,
       "partials_hit": [
-        0
+        0,
+        1
       ],
       "breakeven": true,
       "status": "open",
@@ -4751,7 +4752,7 @@
     },
     "BTC/USD": {
       "trend": "ranging",
-      "updated_at": "2026-11-08T20:03:38.947522+00:00"
+      "updated_at": "2026-11-09T03:53:49.301378+00:00"
     }
   },
   "last_mtf_trend": {
@@ -4765,12 +4766,12 @@
     },
     "BTC/USD": {
       "trend": "bearish",
-      "updated_at": "2026-11-08T23:50:54.047593+00:00"
+      "updated_at": "2026-11-09T03:53:49.339912+00:00"
     }
   },
-  "last_health_ping": "2026-11-08T20:04:09.870891+00:00",
+  "last_health_ping": "2026-11-09T03:53:50.089952+00:00",
   "api_usage": {
-    "date": "2026-11-08",
-    "count": 32
+    "date": "2026-11-09",
+    "count": 3
   }
 }
