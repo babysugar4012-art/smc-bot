@@ -4734,44 +4734,64 @@
       "rr_final": 3.0,
       "partials_hit": [
         0,
-        1
+        1,
+        2
       ],
       "breakeven": true,
-      "status": "open",
+      "status": "closed",
       "opened_at": "2026-11-06T21:41:08.046867+00:00"
+    },
+    {
+      "id": "237d69e7",
+      "symbol": "BTC/USD",
+      "direction": "short",
+      "entry": 74444.0,
+      "sl": 74661.5772,
+      "original_sl": 74661.5772,
+      "tps": [
+        74226.4228,
+        74008.8456,
+        73791.2684
+      ],
+      "risk": 217.5772,
+      "rr_final": 3.0,
+      "partials_hit": [],
+      "breakeven": false,
+      "status": "open",
+      "opened_at": "2026-11-09T12:23:09.528223+00:00"
     }
   ],
   "last_trend": {
     "EUR/USD": {
       "trend": "ranging",
-      "updated_at": "2026-11-08T20:03:38.172580+00:00"
+      "updated_at": "2026-11-09T12:22:48.336992+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-11-08T20:03:38.575628+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-11-09T12:22:48.436165+00:00"
     },
     "BTC/USD": {
-      "trend": "ranging",
-      "updated_at": "2026-11-09T03:53:49.301378+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-11-09T12:22:48.526153+00:00"
     }
   },
   "last_mtf_trend": {
     "EUR/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-11-08T20:03:38.308631+00:00"
+      "trend": "bullish",
+      "updated_at": "2026-11-09T12:22:48.364877+00:00"
     },
     "USD/JPY": {
-      "trend": "ranging",
-      "updated_at": "2026-11-08T20:03:38.696739+00:00"
+      "trend": "bearish",
+      "updated_at": "2026-11-09T12:22:48.468424+00:00"
     },
     "BTC/USD": {
-      "trend": "bearish",
-      "updated_at": "2026-11-09T03:53:49.339912+00:00"
+      "trend": "ranging",
+      "updated_at": "2026-11-09T12:22:48.555120+00:00"
     }
   },
-  "last_health_ping": "2026-11-09T03:53:50.089952+00:00",
+  "last_health_ping": "2026-11-09T12:23:10.283838+00:00",
   "api_usage": {
     "date": "2026-11-09",
-    "count": 3
+    "count": 12
   }
 }
